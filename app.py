@@ -41,9 +41,13 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title(" 「Excel講師」ボット")
+st.title(" 三交Excel先生")
 st.image("04_programming2..png")
 st.write("Excelに関して、何でも聞いてください。")
+st.write("『氏名を分割する方法』『事務処理でよく使うショートカットキー』などから、具体的なExcelシート上での処理まで、何でも聞いてください。")
+st.write("※個人情報や、機密情報は入力しないでください。")
+
+
 
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
