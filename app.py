@@ -42,7 +42,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「Excel講師」ボット")
-st.image("04_programming2.png")
+st.image("04_programming2..png")
 st.write("Excelに関して、何でも聞いてください。")
 
 
